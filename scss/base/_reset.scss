@@ -1,0 +1,14 @@
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  transition: color 250ms linear,
+    background-color 250ms linear;
+}
+
+textarea {
+  resize: none;
+}
