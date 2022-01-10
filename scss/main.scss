@@ -1,18 +1,4 @@
-@import './utils/variables';
-@import './utils/hidden';
-
-@import './base/reset';
-@import './base/common';
-
-@import './components/container';
-@import './components/modal';
-
-@import './layout/header';
-@import './layout/hero';
-@import './layout/benefits';
-@import './layout/work';
-@import './layout/team';
-@import './layout/clients';
-@import './layout/footer';
-@import './layout/portfolio-btns';
-@import './layout/projects';
+@import "./utils/main-utils";
+@import "./mobile/main-mobile";
+@import"./tablet/index-tablet";
+@import "./components/index-components"
