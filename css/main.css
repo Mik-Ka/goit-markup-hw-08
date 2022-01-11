@@ -28,18 +28,6 @@
   }
 }
 
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.container {
-  width: 1200px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
 @media screen and (max-width: 767px) {
   a {
     text-decoration: none;
@@ -76,7 +64,7 @@
     display: flex;
     margin-top: 16px;
     margin-bottom: 16px;
-    font-family: Raleway;
+    font-family: "Raleway";
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -94,7 +82,7 @@
   }
   .logo-down {
     margin: 0px 0px 20px 0px;
-    font-family: Raleway;
+    font-family: "Raleway";
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -229,7 +217,7 @@
     margin-top: 0px;
     margin-bottom: 0px;
     padding: 60px 0px 52px 0px;
-    font-family: Roboto;
+    font-family: "Roboto";
     font-style: normal;
   }
   .menu__list {
@@ -285,7 +273,7 @@
     display: block;
     margin-bottom: 52px;
     text-align: center;
-    font-family: Roboto;
+    font-family: "Roboto";
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -330,7 +318,7 @@
     width: 480px;
     min-width: 320px;
     height: auto;
-    font-family: Roboto;
+    font-family: "Roboto";
     margin-left: auto;
     margin-right: auto;
     background-color: linear-gradientrgba(47, 48, 58, 0.4);
@@ -370,7 +358,7 @@
   .hero__title {
     padding-top: 118px;
     color: #ffffff;
-    font-family: Roboto;
+    font-family: "Roboto";
     font-style: normal;
     font-weight: 900;
     font-size: 26px;
@@ -450,7 +438,7 @@
   }
   .modalhero__title {
     margin-top: 40px;
-    font-family: Roboto;
+    font-family: "Roboto";
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
@@ -519,7 +507,7 @@
     position: absolute;
     -webkit-transform: translateX(0px) translateY(10px);
             transform: translateX(0px) translateY(10px);
-    font-family: Roboto;
+    font-family: "Roboto";
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -540,7 +528,7 @@
   .modalhero__apply-display {
     display: inline-block;
     margin-top: 20px;
-    font-family: Roboto;
+    font-family: "Roboto";
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -588,7 +576,7 @@
     -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    font-family: Roboto;
+    font-family: "Roboto";
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -656,6 +644,7 @@
     margin-top: 30px;
     margin-bottom: 10px;
     color: #212121;
+    font-family: "Roboto";
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
@@ -667,6 +656,7 @@
   .advantage__text {
     max-width: 450px;
     color: #757575;
+    font-family: "Roboto";
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -690,6 +680,9 @@
   }
   .advantage__list:last-child {
     margin-bottom: 60px;
+  }
+  .advantage__item:not(:last-child) {
+    margin-bottom: 30px;
   }
 }
 
@@ -719,6 +712,7 @@
     background-size: 480px;
   }
   .team__title {
+    font-family: "Roboto";
     margin-bottom: 30px;
     margin-top: 0;
     color: #212121;
@@ -752,6 +746,7 @@
     margin-bottom: 10px;
     margin-top: 0px;
     color: #212121;
+    font-family: "Roboto";
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -767,6 +762,7 @@
     margin-top: 0px;
     margin-bottom: 0px;
     color: #757575;
+    font-family: "Roboto";
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -840,6 +836,7 @@
     margin-bottom: 30px;
   }
   .clients__title {
+    font-family: 'Roboto';
     text-align: center;
     margin-top: 0;
     margin-bottom: 30px;
@@ -1091,7 +1088,7 @@
             filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     padding-left: 16px;
     border-radius: 4px;
-    font-family: Roboto;
+    font-family: "Roboto";
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -1131,7 +1128,7 @@
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border-color: #2196f3;
-    font-family: Roboto;
+    font-family: "Roboto";
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -1328,7 +1325,7 @@
     bottom: -4px;
     left: 0px;
     background-color: rgba(33, 150, 243, 0.9);
-    font-family: Roboto;
+    font-family: "Roboto";
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -1378,7 +1375,7 @@
             align-items: center;
     max-height: 80px;
     background-color: #ffffff;
-    font-family: Roboto;
+    font-family: "Roboto";
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -1476,7 +1473,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .main {
-    font-family: Roboto;
+    font-family: "Roboto";
   }
   a {
     text-decoration: none;
@@ -1549,7 +1546,7 @@
   .logo {
     margin-top: 26px;
     margin-left: 15px;
-    font-family: Raleway;
+    font-family: "Raleway";
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -1567,7 +1564,7 @@
   }
   .logo-down {
     margin: 0px 0px 20px 0px;
-    font-family: Raleway;
+    font-family: "Raleway";
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -1585,7 +1582,7 @@
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .hero {
     display: block;
-    font-family: Roboto;
+    font-family: "Roboto";
     margin-left: auto;
     margin-right: auto;
   }
@@ -1621,7 +1618,7 @@
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .hero__title {
     color: #ffffff;
-    font-family: Roboto;
+    font-family: "Roboto";
     font-style: normal;
     font-weight: 900;
     font-size: 26px;
@@ -1697,7 +1694,7 @@
   }
   .modalhero__title {
     margin-top: 40px;
-    font-family: Roboto;
+    font-family: "Roboto";
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
@@ -1755,7 +1752,7 @@
     position: absolute;
     -webkit-transform: translateX(0px) translateY(10px);
             transform: translateX(0px) translateY(10px);
-    font-family: Roboto;
+    font-family: "Roboto";
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -1776,7 +1773,7 @@
   .modalhero__apply-display {
     display: inline-block;
     margin-top: 20px;
-    font-family: Roboto;
+    font-family: "Roboto";
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -1819,7 +1816,7 @@
     -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    font-family: Roboto;
+    font-family: "Roboto";
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -2320,7 +2317,7 @@
             filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     padding-left: 16px;
     border-radius: 4px;
-    font-family: Roboto;
+    font-family: "Roboto";
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -2360,7 +2357,7 @@
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border-color: #2196f3;
-    font-family: Roboto;
+    font-family: "Roboto";
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -2552,7 +2549,7 @@
     bottom: -4px;
     left: 0px;
     background-color: rgba(33, 150, 243, 0.9);
-    font-family: Roboto;
+    font-family: "Roboto";
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -2834,7 +2831,7 @@
             filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     padding-left: 16px;
     border-radius: 4px;
-    font-family: Roboto;
+    font-family: "Roboto";
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -2926,7 +2923,7 @@
   }
   .modalhero__title {
     margin-top: 40px;
-    font-family: Roboto;
+    font-family: "Roboto";
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
@@ -2983,7 +2980,7 @@
     position: absolute;
     -webkit-transform: translateX(0px) translateY(10px);
             transform: translateX(0px) translateY(10px);
-    font-family: Roboto;
+    font-family: "Roboto";
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -3004,7 +3001,7 @@
   .modalhero__apply-display {
     display: inline-block;
     margin-top: 20px;
-    font-family: Roboto;
+    font-family: "Roboto";
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -3044,7 +3041,7 @@
     -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    font-family: Roboto;
+    font-family: "Roboto";
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -3115,7 +3112,7 @@
             align-items: center;
     max-height: 80px;
     background-color: #ffffff;
-    font-family: Roboto;
+    font-family: "Roboto";
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -3200,7 +3197,7 @@
 
 @media screen and (min-width: 1200px) {
   .logo {
-    font-family: Raleway;
+    font-family: "Raleway";
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
@@ -3218,7 +3215,7 @@
   }
   .logo-down {
     margin: 0px 0px 20px 0px;
-    font-family: Raleway;
+    font-family: "Raleway";
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
@@ -3366,7 +3363,7 @@
 
 @media screen and (min-width: 1200px) {
   .main {
-    font-family: Roboto;
+    font-family: "Roboto";
   }
   a {
     text-decoration: none;
@@ -3575,7 +3572,7 @@
     bottom: -4px;
     left: 0px;
     background-color: rgba(33, 150, 243, 0.9);
-    font-family: Roboto;
+    font-family: "Roboto";
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -3679,7 +3676,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    font-family: Roboto;
+    font-family: "Roboto";
   }
   .hero-section {
     margin: 0 auto;
@@ -3757,7 +3754,7 @@
 @media screen and (min-width: 1200px) {
   .hero__title {
     color: #ffffff;
-    font-family: Roboto;
+    font-family: "Roboto";
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
