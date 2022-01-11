@@ -1,16 +1,17 @@
 @media screen and (min-width: 1200px) {
   .hero {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-family: Roboto;
-    margin-left: auto;
-    margin-right: auto ;
 
       &-section {
-
-        padding-top: 184px;
-        padding-bottom: 184px;
-        padding-left: auto;
-        padding-right: auto;
+        margin: 0 auto;
+        padding: 200px 0;
+        // padding-top: 184px;
+        // padding-bottom: 184px;
+        // padding-left: auto;
+        // padding-right: auto;
         background-color: $new-bg-hero;
         background-size: cover;
         background-repeat: no-repeat;
