@@ -181,8 +181,9 @@
   transition-duration: 250ms;
 
     &__button:hover,
-    &__button:focus {
-    fill: $Logo-blue-color;
+    &__button:focus .close__button-icon{
+    fill: #2196f3;
+    cursor: pointer;
     }
   }
 
